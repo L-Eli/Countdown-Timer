@@ -1,0 +1,62 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Countdown Timer</title>
+</head>
+<body>
+
+<div id="countdownContainer">
+    <div class="countdown-panel">
+        <div class="countdown-group" id="dayGroup">
+            <svg width="220" height="220">
+                <circle r="100" cx="110" cy="110" fill="transparent"></circle>
+                <circle class="countdown-bar" id="dayBar" r="100" cx="110" cy="110" fill="transparent"></circle>
+            </svg>
+            <span id="day"></span>
+        </div>
+        <p class="countdown-text">Day</p>
+    </div>
+
+    <div class="countdown-panel">
+        <div class="countdown-group" id="hourGroup">
+            <svg width="220" height="220">
+                <circle r="100" cx="110" cy="110" fill="transparent"></circle>
+                <circle class="countdown-bar" id="hourBar" r="100" cx="110" cy="110" fill="transparent"></circle>
+            </svg>
+            <span id="hour"></span>
+        </div>
+        <p class="countdown-text">Hour</p>
+    </div>
+
+    <div class="countdown-panel">
+        <div class="countdown-group" id="minuteGroup">
+            <svg width="220" height="220">
+                <circle r="100" cx="110" cy="110" fill="transparent"></circle>
+                <circle class="countdown-bar" id="minuteBar" r="100" cx="110" cy="110" fill="transparent"></circle>
+            </svg>
+            <span id="minute"></span>
+        </div>
+        <p class="countdown-text">Minute</p>
+    </div>
+
+    <div class="countdown-panel">
+        <div class="countdown-group" id="secondGroup">
+            <svg width="220" height="220">
+                <circle r="100" cx="110" cy="110" fill="transparent"></circle>
+                <circle class="countdown-bar" id="secondBar" r="100" cx="110" cy="110" fill="transparent"></circle>
+            </svg>
+            <span id="second"></span>
+        </div>
+        <p class="countdown-text">Second</p>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
